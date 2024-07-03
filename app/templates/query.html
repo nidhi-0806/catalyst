@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Query Builder{% endblock %}
+
+{% block content %}
+<h1 class="title">Query Builder</h1>
+<form action="/csv_records/" method="get">
+    <!-- Add filtering fields as needed -->
+    <div class="control">
+        <button class="button is-primary" type="submit">Search</button>
+    </div>
+</form>
+{% endblock %}
